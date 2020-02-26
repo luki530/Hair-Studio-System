@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2024.0" y="589.0">pl.edu.agh.userInterface.gui.controller.ListUsersPageController</node>
+    <node x="158.0" y="0.0">pl.edu.agh.persistence.Persistable</node>
+    <node x="1484.0" y="1132.0">pl.edu.agh.actions.implementations.ListServiceAction</node>
+    <node x="548.0" y="1476.0">pl.edu.agh.userInterface.gui.controller.ShowServicesPageController</node>
+    <node x="958.0" y="797.0">pl.edu.agh.objects.services.implemetations.ColorMen</node>
+    <node x="481.0" y="0.0">pl.edu.agh.userInterface.UserInterface</node>
+    <node x="1045.0" y="958.0">pl.edu.agh.actions.Action</node>
+    <node x="424.0" y="1132.0">pl.edu.agh.actions.implementations.ListVisitsAction</node>
+    <node x="0.0" y="1227.0">pl.edu.agh.startup.configuration.MainConfiguration</node>
+    <node x="1386.0" y="1227.0">pl.edu.agh.userInterface.gui.controller.PriceListPageController</node>
+    <node x="1972.0" y="1227.0">pl.edu.agh.actions.ActionResult</node>
+    <node x="1093.0" y="0.0">pl.edu.agh.userInterface.gui.controller.HomePageController</node>
+    <node x="808.0" y="0.0">pl.edu.agh.persistence.PersistenceManager</node>
+    <node x="848.0" y="1132.0">pl.edu.agh.actions.implementations.DeleteVisitAction</node>
+    <node x="1731.0" y="589.0">pl.edu.agh.userInterface.gui.controller.AddNewVisitPageController</node>
+    <node x="481.0" y="210.0">pl.edu.agh.userInterface.gui.GraphicsUserInterface</node>
+    <node x="1060.0" y="1132.0">pl.edu.agh.actions.implementations.LogoutAction</node>
+    <node x="255.0" y="1476.0">pl.edu.agh.userInterface.gui.controller.EmployeeInfoPageController</node>
+    <node x="384.0" y="1227.0">pl.edu.agh.startup.configuration.MainApp</node>
+    <node x="382.0" y="797.0">pl.edu.agh.objects.services.implemetations.ColorWomen</node>
+    <node x="212.0" y="1132.0">pl.edu.agh.actions.implementations.RegistrationAction</node>
+    <node x="1696.0" y="1132.0">pl.edu.agh.actions.implementations.LoginAction</node>
+    <node x="2120.0" y="1132.0">pl.edu.agh.actions.implementations.ConfirmVisitAction</node>
+    <node x="569.0" y="797.0">pl.edu.agh.objects.services.implemetations.ValuePackagesMen</node>
+    <node x="1295.0" y="1476.0">pl.edu.agh.objects.exceptions.BusyPeriodException</node>
+    <node x="808.0" y="188.0">pl.edu.agh.persistence.sql.JPAPersistenceManager</node>
+    <node x="0.0" y="797.0">pl.edu.agh.objects.services.implemetations.ValuePackagesWomen</node>
+    <node x="756.0" y="797.0">pl.edu.agh.objects.services.implemetations.TextureAndCurlWomen</node>
+    <node x="195.0" y="797.0">pl.edu.agh.objects.services.implemetations.ExtrasMen</node>
+    <node x="1679.0" y="1227.0">pl.edu.agh.userInterface.gui.controller.ShowMyVisitsPageController</node>
+    <node x="1145.0" y="797.0">pl.edu.agh.objects.services.implemetations.ExtrasWomen</node>
+    <node x="841.0" y="1476.0">pl.edu.agh.startup.ApplicationStartup</node>
+    <node x="763.5" y="589.0">pl.edu.agh.objects.services.Services</node>
+    <node x="1061.0" y="1476.0">pl.edu.agh.objects.exceptions.InvalidDateException</node>
+    <node x="233.0" y="87.0">pl.edu.agh.databaseModel.User</node>
+    <node x="736.0" y="1227.0">pl.edu.agh.userInterface.gui.controller.RegistrationPageController</node>
+    <node x="1061.0" y="1227.0">pl.edu.agh.userInterface.gui.controller.LoginPageController</node>
+    <node x="1332.0" y="797.0">pl.edu.agh.objects.services.implemetations.CutAndStyleWomen</node>
+    <node x="0.0" y="1476.0">pl.edu.agh.appContext.AppContext</node>
+    <node x="1908.0" y="1132.0">pl.edu.agh.actions.implementations.ReserveVisitAction</node>
+    <node x="636.0" y="1132.0">pl.edu.agh.actions.implementations.DeleteUserAction</node>
+    <node x="0.0" y="76.0">pl.edu.agh.databaseModel.Visit</node>
+    <node x="0.0" y="1132.0">pl.edu.agh.actions.implementations.UpdateVisitAction</node>
+    <node x="1272.0" y="1132.0">pl.edu.agh.actions.implementations.ListUsersAction</node>
+    <node x="1519.0" y="797.0">pl.edu.agh.objects.services.implemetations.CutAndStyleMen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.edu.agh.objects.services.implemetations.ExtrasWomen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="1228.5" y="767.0" />
+      <point x="884.1111111111111" y="767.0" />
+      <point x="37.111111111111086" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.ColorWomen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="465.5" y="767.0" />
+      <point x="809.8888888888889" y="767.0" />
+      <point x="-37.111111111111086" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.ValuePackagesMen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="652.5" y="777.0" />
+      <point x="828.4444444444445" y="777.0" />
+      <point x="-18.555555555555543" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.ListServiceAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="1580.0" y="1102.0" />
+      <point x="1196.3636363636365" y="1102.0" />
+      <point x="40.36363636363649" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.LoginAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="1792.0" y="1092.0" />
+      <point x="1216.5454545454545" y="1092.0" />
+      <point x="60.545454545454504" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.databaseModel.User" target="pl.edu.agh.persistence.Persistable">
+      <point x="0.0" y="-223.0" />
+      <point x="334.5" y="51.0" />
+      <point x="251.75" y="51.0" />
+      <point x="31.25" y="13.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.TextureAndCurlWomen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.ReserveVisitAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="2004.0" y="1082.0" />
+      <point x="1236.7272727272727" y="1082.0" />
+      <point x="80.72727272727275" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.LogoutAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.ExtrasMen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="278.5" y="757.0" />
+      <point x="791.3333333333334" y="757.0" />
+      <point x="-55.66666666666663" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.CutAndStyleMen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="1602.5" y="747.0" />
+      <point x="921.2222222222222" y="747.0" />
+      <point x="74.22222222222217" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.ConfirmVisitAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="2216.0" y="1072.0" />
+      <point x="1256.909090909091" y="1072.0" />
+      <point x="100.90909090909099" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.userInterface.gui.GraphicsUserInterface" target="pl.edu.agh.userInterface.UserInterface">
+      <point x="0.0" y="-146.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.CutAndStyleWomen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="1415.5" y="757.0" />
+      <point x="902.6666666666667" y="757.0" />
+      <point x="55.66666666666674" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.ColorMen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="1041.5" y="777.0" />
+      <point x="865.5555555555555" y="777.0" />
+      <point x="18.555555555555543" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.UpdateVisitAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="96.0" y="1072.0" />
+      <point x="1055.090909090909" y="1072.0" />
+      <point x="-100.90909090909099" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.databaseModel.Visit" target="pl.edu.agh.persistence.Persistable">
+      <point x="0.0" y="-234.0" />
+      <point x="106.5" y="51.0" />
+      <point x="189.25" y="51.0" />
+      <point x="-31.25" y="13.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.DeleteVisitAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="944.0" y="1112.0" />
+      <point x="1135.8181818181818" y="1112.0" />
+      <point x="-20.181818181818244" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.ListVisitsAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="520.0" y="1092.0" />
+      <point x="1095.4545454545455" y="1092.0" />
+      <point x="-60.545454545454504" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.objects.services.implemetations.ValuePackagesWomen" target="pl.edu.agh.objects.services.Services">
+      <point x="0.0" y="-58.0" />
+      <point x="87.5" y="747.0" />
+      <point x="772.7777777777778" y="747.0" />
+      <point x="-74.22222222222217" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.DeleteUserAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="732.0" y="1102.0" />
+      <point x="1115.6363636363637" y="1102.0" />
+      <point x="-40.36363636363626" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.persistence.sql.JPAPersistenceManager" target="pl.edu.agh.persistence.PersistenceManager">
+      <point x="0.0" y="-102.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.ListUsersAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="1368.0" y="1112.0" />
+      <point x="1176.1818181818182" y="1112.0" />
+      <point x="20.181818181818244" y="47.0" />
+    </edge>
+    <edge source="pl.edu.agh.actions.implementations.RegistrationAction" target="pl.edu.agh.actions.Action">
+      <point x="0.0" y="-25.0" />
+      <point x="308.0" y="1082.0" />
+      <point x="1075.2727272727273" y="1082.0" />
+      <point x="-80.72727272727275" y="47.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="950.9999999999998" y="1014.9999999999999" />
+  <SelectedNodes>
+    <node>pl.edu.agh.actions.Action</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

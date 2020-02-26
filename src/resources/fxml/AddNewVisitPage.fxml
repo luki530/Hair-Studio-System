@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" prefHeight="614.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="28.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose employee:" />
+      <Text layoutX="28.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose client:" />
+      <ComboBox fx:id="chooseEmployeeComboBox" layoutX="28.0" layoutY="40.0" prefWidth="150.0" promptText="List of employees" />
+      <ComboBox fx:id="chooseClientComboBox" layoutX="28.0" layoutY="92.0"  prefWidth="150.0" promptText="List of clients" />
+      <ComboBox fx:id="chooseServiceComboBox" layoutX="18.0" layoutY="422.0"  prefWidth="150.0" promptText="List of services" />
+      <CheckBox fx:id="reservedCheckBox" layoutX="19.0" layoutY="457.0" mnemonicParsing="false" onAction="#reserved" selected="true" disable="true" text="Reserved" />
+      <CheckBox fx:id="confirmedCheckBox" layoutX="16.0" layoutY="480.0" mnemonicParsing="false"  text="Confirmed" />
+      <TextField fx:id="pickStartTime" editable="false" layoutX="19.0" layoutY="378.0" prefHeight="26.0" prefWidth="150.0" />
+      <Button fx:id="returnToHomePageButton" layoutX="20.0" layoutY="537.0" mnemonicParsing="false" onAction="#returnToHomePage" prefHeight="26.0" prefWidth="150.0" text="Return To Home Page" />
+      <Text layoutX="18.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose  service:" />
+      <Text layoutX="21.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick start time:" />
+      <Button fx:id="addVisitButton" layoutX="195.0" layoutY="538.0" mnemonicParsing="false" onAction="#addVisit" text="Add Visit" />
+      <JFXDatePicker fx:id="datePicker" layoutX="21.0" layoutY="322.0" onAction="#setTime" />
+      <JFXTimePicker fx:id="timePicker" layoutX="28.0" layoutY="127.0" onAction="#setTime" />
+   </children>
+</AnchorPane>

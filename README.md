@@ -1,6 +1,6 @@
 # HairStudioSystem
 
-Run->Edit configurations -> VM Options:
+##Run->Edit configurations -> VM Options:
 
 --module-path
 ${PATH_TO_FX}

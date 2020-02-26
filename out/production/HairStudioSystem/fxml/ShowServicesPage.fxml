@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="594.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="returnToHomePageButton" layoutX="14.0" layoutY="554.0" mnemonicParsing="false" onAction="#returnToHomePage" text="Return To Home Page" />
+      <Text layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Men:" />
+      <Text layoutX="617.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Women:" />
+      <Accordion fx:id="menServicesAccordion" layoutX="14.0" layoutY="45.0">
+        <panes>
+          <TitledPane fx:id="colorTitledPaneMen" animated="false" text="Color">
+            <content>
+              <AnchorPane fx:id="colorMenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="cutAndStyleTitledPaneMen" animated="false" text="Cut And Style">
+            <content>
+              <AnchorPane fx:id="cutAndStyleMenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="extrasTitledPaneMen" animated="false" text="Extras">
+            <content>
+              <AnchorPane fx:id="extrasMenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+            <TitledPane fx:id="valuePackagesTitledPaneMen" animated="false" layoutX="10.0" layoutY="61.0" text="Value Packages">
+               <content>
+                  <AnchorPane fx:id="valuePackagesMenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+      <Accordion fx:id="womenServicesAccordion" layoutX="617.0" layoutY="46.0">
+        <panes>
+          <TitledPane fx:id="colorTitledPaneWomen" animated="false" text="Color">
+            <content>
+              <AnchorPane fx:id="colorWomenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="cutAndStyleTitledPaneWomen" animated="false" text="Cut And Style">
+            <content>
+              <AnchorPane fx:id="cutAndStyleWomenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="extrasTitledPaneWomen" animated="false" text="Extras">
+            <content>
+              <AnchorPane fx:id="extrasWomenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+            <TitledPane fx:id="textureAndCurlTitledPaneWomen" animated="false" layoutX="10.0" layoutY="61.0" text="Texture And Curl">
+               <content>
+                  <AnchorPane fx:id="texTureAndCurlWomenAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </TitledPane>
+            <TitledPane fx:id="valuePackagesTitledPaneWomen" animated="false" layoutX="10.0" layoutY="61.0" text="Value Packages" />
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>

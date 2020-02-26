@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="hairstudiosystem">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>pl.edu.agh.databaseModel.User</class>
+        <class>pl.edu.agh.databaseModel.Visit</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:mysql://remotemysql.com:3306/zzV412UPYS" />
+            <property name="javax.persistence.jdbc.user" value="zzV412UPYS" />
+            <property name="javax.persistence.jdbc.password" value="tCBwJ5tnks" />
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="removeButton" layoutX="684.0" layoutY="56.0" mnemonicParsing="false" onAction="#remove" prefHeight="26.0" prefWidth="121.0" text="Remove User" />
+      <Button fx:id="addNewEmployeeButton" layoutX="879.0" layoutY="258.0" mnemonicParsing="false" onAction="#addNewEmployee" prefHeight="0.0" prefWidth="121.0" text="Add New Employee" />
+      <TextField fx:id="login" layoutX="865.0" layoutY="56.0" promptText="Login" />
+      <PasswordField fx:id="password" layoutX="866.0" layoutY="86.0" promptText="Password" />
+      <TextField fx:id="firstName" layoutX="864.0" layoutY="138.0" prefHeight="17.0" prefWidth="150.0" promptText="First Name" />
+      <TextField fx:id="lastName" layoutX="865.0" layoutY="168.0" prefHeight="4.0" prefWidth="150.0" promptText="Last Name" />
+      <TextField fx:id="emailAddress" layoutX="866.0" layoutY="198.0" promptText="E-Mail Address" />
+      <TextField fx:id="phoneNumber" layoutX="866.0" layoutY="228.0" promptText="Phone Number" />
+      <Button fx:id="returnToHomePageButton" layoutX="233.0" layoutY="516.0" mnemonicParsing="false" onAction="#returnToHomePage" prefHeight="34.0" prefWidth="149.0" text="Return To Home Page" />
+      <TableView fx:id="usersTable" layoutX="7.0" layoutY="52.0" prefHeight="438.0" prefWidth="602.0">
+        <columns>
+          <TableColumn fx:id="userLogin" prefWidth="100.0" text="Login" />
+          <TableColumn fx:id="userFirstName" prefWidth="100.0" text="First Name" />
+            <TableColumn fx:id="userLastName" prefWidth="100.0" text="Last Name" />
+            <TableColumn fx:id="userEmail" prefWidth="100.0" text="E-Mail Addres" />
+            <TableColumn fx:id="userPhoneNumber" prefWidth="100.0" text="Phone Number" />
+            <TableColumn fx:id="userRole" prefWidth="100.0" text="Role" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterField" layoutX="7.0" layoutY="14.0" prefHeight="26.0" prefWidth="602.0" promptText="Search users information" />
+      <CheckBox fx:id="showPasswordCheckBox" layoutX="864.0" layoutY="116.0" mnemonicParsing="false" onAction="#showPassword" text="Show Password" />
+      <TextField fx:id="passwordTextField" layoutX="865.0" layoutY="86.0" prefHeight="18.0" prefWidth="150.0" promptText="Password" visible="false" />
+   </children>
+</AnchorPane>

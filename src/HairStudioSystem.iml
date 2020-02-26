@@ -32,6 +32,6 @@
     <orderEntry type="library" name="org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Draft-7plus" level="project" />
     <orderEntry type="library" name="Hibernate 5.4.9-5.4.9" level="project" />
     <orderEntry type="library" name="com.calendarfx:view:11.8.3" level="project" />
-    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="fx" level="project" />
   </component>
 </module>

@@ -1,8 +1,6 @@
 # Hair-Studio-System
 
-
-## How does it work ?
-
+Simple graphic aplication for managing visits in hair studio. Depending on the role (client, employee, admin) user can do some other activities.
 
 ## Screenshots gallery
 
@@ -13,6 +11,15 @@
 ## Functionalities
 
 <details><summary>Show</summary>
+  
+  <p>1. Login and register</p>
+  <p>2. Reserve visit</p>
+  <p>3. View visit</p>
+  <p>4. Confirm visit by employee</p>
+  <p>5. Delete visit</p>
+  <p>6. List visits (clients visists or employee visits)</p>
+  <p>7. Create employees</p>
+  <p>8. Manage existing users</p>
   
 </details>
 
